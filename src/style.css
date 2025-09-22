@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+
+@layer base {
 :root {
 
 --color-white: oklch(1 0 0);
@@ -11,5 +13,10 @@
 
 --color-green: oklch(87.1% 0.15 154.449);
 --color-green-300: oklch(79.2% 0.209 151.711);
+
+}
+}
+
+@theme {
 
 }
